@@ -1,0 +1,29 @@
+.NavButton {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  border-radius: 4px;
+  color: #fff;
+  
+  position: relative;
+  &.active {
+    background: var(--primary-color);
+  }
+
+  &-icon {
+    display: flex;
+    margin-right: 12px;
+  }
+}
+
+.Indicator {
+  position: absolute;
+  width: 6px;
+  height: calc(100% - 12px);
+  top: 6px;
+  bottom: 6px;
+  left: 0;
+  border-radius: 4px;
+  background: #fff;
+}

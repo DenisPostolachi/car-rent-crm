@@ -1,0 +1,17 @@
+.Paper {
+  background: var(--paper-color);
+  border-radius: 8px;
+  padding: 24px 24px 20px 24px;
+  box-shadow: 0px 8px 24px 0px rgba(69, 69, 80, 0.10);
+}
+
+.Header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.Title {
+  font: var(--font-l);
+  color: var(--gray-02-color);
+}

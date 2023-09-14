@@ -1,0 +1,55 @@
+.Difference {
+  font: var(--font-m);
+  color: var(--gray-02-color);
+
+  &.Negative {
+    color: var(--secondary-color);
+  }
+
+  &.Positive {
+    color: var(--green-color);
+  }
+}
+
+.Header {
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(163, 163, 163, 0.20);;
+}
+
+.RightElement {
+  margin-left: auto;
+
+  padding: 4px 8px;
+  color: var(--color-02-gray);
+  font: var(--font-xs);
+  font-size: 12px;
+  background: #f4f5f7;
+}
+
+.Money {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  &-count {
+    font: var(--font-xxl);
+    color: #01150C;
+    font-weight: 700;
+  }
+}
+
+.Yesterday {
+  margin-top: 8px;
+  color: var(--gray-03-color);
+}
+
+.LastWeek {
+  display: flex;
+  margin-top: 2px;
+  font: var(--font-xs);
+  color: var(--gray-02-color);
+  font-weight: 500;
+  & span {
+    margin-left: auto;
+  }
+}
